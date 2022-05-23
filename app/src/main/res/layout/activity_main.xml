@@ -1,0 +1,256 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/chestImagebutton"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/purple_200"
+    android:backgroundTint="#3242A3"
+    tools:context=".MainActivity">
+
+    <ScrollView
+        android:id="@+id/scrollView2"
+        android:layout_width="411dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/img_18">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:id="@+id/chestImagebutton"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:backgroundTint="#CC3434"
+                tools:context=".MainActivity">
+
+                <TextView
+                    android:id="@+id/foodTextview"
+                    android:layout_width="410dp"
+                    android:layout_height="35dp"
+                    android:background="#C3CA05"
+                    android:text="                                    Food"
+                    android:textColor="#C81D1D"
+                    android:textColorHighlight="@color/teal_200"
+                    android:textSize="20sp"
+                    tools:layout_editor_absoluteX="0dp"
+                    tools:layout_editor_absoluteY="83dp" />
+
+                <HorizontalScrollView
+                    android:id="@+id/foodHorizontal"
+                    android:layout_width="wrap_content"
+                    android:layout_height="145dp"
+                    android:layout_weight="1"
+                    tools:layout_editor_absoluteY="118dp">
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:orientation="horizontal">
+
+                        <ImageButton
+                            android:id="@+id/pilgrimsImagebutton"
+                            android:layout_width="153dp"
+                            android:layout_height="match_parent"
+
+                            android:scaleType="fitXY"
+                            app:srcCompat="@drawable/imgone" />
+
+                        <ImageButton
+                            android:id="@+id/chestnuImagebutton"
+                            android:layout_width="153dp"
+                            android:layout_height="match_parent"
+
+                            android:scaleType="fitXY"
+                            app:srcCompat="@drawable/img" />
+
+                        <ImageButton
+                            android:id="@+id/buddsImagebutton"
+                            android:layout_width="153dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"
+                            android:scaleType="fitXY"
+                            app:srcCompat="@drawable/img_1" />
+
+                        <ImageButton
+                            android:id="@+id/glandoreImagebutton"
+                            android:layout_width="153dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"
+                            app:srcCompat="@drawable/img_2" />
+
+                    </LinearLayout>
+                </HorizontalScrollView>
+
+                <HorizontalScrollView
+                    android:id="@+id/beachesHorizontal"
+                    android:layout_width="wrap_content"
+                    android:layout_height="145dp"
+                    tools:layout_editor_absoluteY="370dp">
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:orientation="horizontal">
+
+                        <ImageButton
+                            android:id="@+id/inchyImagebutton"
+                            android:layout_width="153dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"
+                            android:scaleType="fitXY"
+                            app:srcCompat="@drawable/img_4" />
+
+                        <ImageButton
+                            android:id="@+id/owenImagebutton"
+                            android:layout_width="153dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"
+                            android:scaleType="fitXY"
+                            app:srcCompat="@drawable/img_5" />
+
+                        <ImageButton
+                            android:id="@+id/barleyImagebutton"
+                            android:layout_width="153dp"
+                            android:layout_height="match_parent"
+                            android:scaleType="fitXY"
+                            app:srcCompat="@drawable/img_3" />
+
+                        <ImageButton
+                            android:id="@+id/warrenImagebutton"
+                            android:layout_width="153dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"
+                            android:scaleType="fitXY"
+                            app:srcCompat="@drawable/img_7" />
+                    </LinearLayout>
+                </HorizontalScrollView>
+
+                <TextView
+                    android:id="@+id/beachesTextview"
+                    android:layout_width="410dp"
+                    android:layout_height="35dp"
+                    android:background="#C3CA05"
+                    android:text="                                  Beaches"
+                    android:textColor="#AC1313"
+                    android:textSize="20sp"
+                    tools:layout_editor_absoluteX="0dp"
+                    tools:layout_editor_absoluteY="335dp" />
+
+                <TextView
+                    android:id="@+id/sighTextview"
+                    android:layout_width="410dp"
+                    android:layout_height="35dp"
+                    android:background="#C3CA05"
+                    android:text="Sight Seeing"
+                    android:textColor="#C52727"
+                    android:textSize="20sp"
+                    tools:layout_editor_absoluteX="0dp"
+                    tools:layout_editor_absoluteY="551dp" />
+
+                <HorizontalScrollView
+                    android:id="@+id/horizontalScrollView2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="145dp"
+                    tools:layout_editor_absoluteY="586dp">
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:orientation="horizontal">
+
+                        <ImageButton
+                            android:id="@+id/mizenImagebutton"
+                            android:layout_width="153dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"
+                            android:scaleType="fitXY"
+                            app:srcCompat="@drawable/img_9" />
+
+                        <ImageButton
+                            android:id="@+id/durseyImagebutton"
+                            android:layout_width="153dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"
+                            android:scaleType="fitXY"
+                            app:srcCompat="@drawable/img_13" />
+
+                        <ImageButton
+                            android:id="@+id/beaconImagebutton"
+                            android:layout_width="153dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"
+                            android:scaleType="fitXY"
+                            app:srcCompat="@drawable/img_8" />
+
+                        <ImageButton
+                            android:id="@+id/hyneImagebutton"
+                            android:layout_width="153dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"
+                            android:scaleType="fitXY"
+                            app:srcCompat="@drawable/img_11" />
+
+                    </LinearLayout>
+                </HorizontalScrollView>
+
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+            <TextView
+                android:id="@+id/placesTextview"
+                android:layout_width="410dp"
+                android:layout_height="35dp"
+                android:layout_weight="1"
+                android:background="#C3CA05"
+                android:text="                                  Places to stay"
+                android:textColor="#BD1919"
+                android:textSize="20sp" />
+
+            <HorizontalScrollView
+                android:layout_width="wrap_content"
+                android:layout_height="145dp">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+
+                    <ImageButton
+                        android:id="@+id/schullImagebutton"
+                        android:layout_width="153dp"
+                        android:layout_height="match_parent"
+                        android:scaleType="fitXY"
+                        app:srcCompat="@drawable/img_14" />
+
+                    <ImageButton
+                        android:id="@+id/incheyspaImagebutton"
+                        android:layout_width="153dp"
+                        android:layout_height="match_parent"
+                        android:scaleType="fitXY"
+                        app:srcCompat="@drawable/img_12" />
+
+                    <ImageButton
+                        android:id="@+id/barleyhotelImagebutton"
+                        android:layout_width="153dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:scaleType="fitXY"
+                        app:srcCompat="@drawable/img_16" />
+
+                    <ImageButton
+                        android:id="@+id/ecclesImagebutton"
+                        android:layout_width="153dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:scaleType="fitXY"
+                        app:srcCompat="@drawable/img_15" />
+                </LinearLayout>
+            </HorizontalScrollView>
+
+        </LinearLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

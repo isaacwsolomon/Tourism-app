@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#B88A8A"
+    tools:context=".BarleycoveBeachActivity">
+
+    <ImageView
+        android:id="@+id/imageView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="86dp"
+        app:layout_constraintBottom_toBottomOf="@+id/barleycovebeachTextview"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/img_17" />
+
+    <Button
+        android:id="@+id/barleycovebeachMore"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="69dp"
+        android:text="More...."
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/barleycovebeachTextview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="226dp"
+        android:text="Barleycove Beach like no other. Yes, that sounds like an incredibly cliched thing to say, but how many other Irish beaches do you know of that were created by a tsunami?! More on that later, but if you’re down in this gorgeous corner of Cork then definitely make the time to visit the very mighty Barleycove Beach. "
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="@+id/imageView6" />
+</androidx.constraintlayout.widget.ConstraintLayout>

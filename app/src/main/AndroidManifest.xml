@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.finaltourism">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.FinalTourism">
+        <activity
+            android:name=".BarleyHotelActivity"
+            android:exported="false" />
+        <activity
+            android:name=".IncheydoneyHotelActivity"
+            android:exported="false" />
+        <activity
+            android:name=".EcclesActivity"
+            android:exported="false" />
+        <activity
+            android:name=".SchullHotelActivity"
+            android:exported="false" />
+        <activity
+            android:name=".DurseyActivity"
+            android:exported="false" />
+        <activity
+            android:name=".LochHyneActivity"
+            android:exported="false" />
+        <activity
+            android:name=".BeaconActivity"
+            android:exported="false" />
+        <activity
+            android:name=".MizenActivity"
+            android:exported="false" />
+        <activity
+            android:name=".WarrenActivity"
+            android:exported="false" />
+        <activity
+            android:name=".OwenahinchaActivity"
+            android:exported="false" />
+        <activity
+            android:name=".BarleycoveBeachActivity"
+            android:exported="false" />
+        <activity
+            android:name=".InchdoneyBeachActivity"
+            android:exported="false" />
+        <activity
+            android:name=".buddsActivity"
+            android:exported="false" />
+        <activity
+            android:name=".GlandoreActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ChestnutActivity"
+            android:exported="false" />
+        <activity
+            android:name=".PilgrimActivity"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

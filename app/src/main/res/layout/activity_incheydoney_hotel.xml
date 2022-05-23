@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#BF7EC8"
+    tools:context=".IncheydoneyHotelActivity">
+
+    <ImageView
+        android:id="@+id/imageView13"
+        android:layout_width="750dp"
+        android:layout_height="0dp"
+        android:layout_marginBottom="11dp"
+        app:layout_constraintBottom_toTopOf="@+id/incheyhotelTextview"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/img_12"
+        tools:layout_editor_absoluteX="-170dp" />
+
+    <TextView
+        android:id="@+id/incheyhotelTextview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:text="A warm welcome awaits you in one of Ireland's most exclusive and tranquil retreats. A true destination for people who value time together - now more than ever.  We appreciate you choosing Inchydoney for your getaway and will do everything possible to ensure you create wonderful memories with family and friends."
+        android:textSize="20sp"
+        app:layout_constraintBottom_toTopOf="@+id/incheyhotelMore"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView13" />
+
+    <Button
+        android:id="@+id/incheyhotelMore"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="27dp"
+        android:text="More..."
+        android:textSize="20sp"
+        app:layout_constraintBottom_toTopOf="@+id/incheyCall"
+        app:layout_constraintEnd_toEndOf="@+id/incheyCall"
+        app:layout_constraintTop_toBottomOf="@+id/incheyhotelTextview" />
+
+    <Button
+        android:id="@+id/incheyCall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="45dp"
+        android:text="Call 📞"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/incheyhotelMore" />
+</androidx.constraintlayout.widget.ConstraintLayout>

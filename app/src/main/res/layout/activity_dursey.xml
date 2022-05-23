@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#9CB6C1"
+    tools:context=".DurseyActivity">
+
+    <ImageView
+        android:id="@+id/imageView11"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="124dp"
+        app:layout_constraintBottom_toBottomOf="@+id/durseyTextview"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/img_13" />
+
+    <TextView
+        android:id="@+id/durseyTextview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="122dp"
+        android:text="Dursey Island (Irish: Oileán Baoi (Island of the Bull in Viking Norse)) is one of the few inhabited islands that lie off the southwest coast of Ireland. It is situated at the western tip of the Beara Peninsula in the west of County Cork. Dursey Island is 6.5 km long and 1.5 km wide. The island is separated from the mainland by a narrow stretch of water called the Dursey Sound which has a very strong tidal race, with a reef of rocks in the centre of the channel which is submerged at high tides. This peaceful island, with only a handful of semi-permanent residents, is connected to the mainland by Ireland's only cable car."
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="@+id/imageView11" />
+
+    <Button
+        android:id="@+id/durseyMore"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:text="More..."
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/durseyTextview" />
+</androidx.constraintlayout.widget.ConstraintLayout>

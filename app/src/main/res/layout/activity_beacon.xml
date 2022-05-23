@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#A8E5ED"
+    tools:context=".BeaconActivity">
+
+    <ImageView
+        android:id="@+id/imageView9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="42dp"
+        app:layout_constraintBottom_toBottomOf="@+id/beaconTextview"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/img_8" />
+
+    <TextView
+        android:id="@+id/beaconTextview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="273dp"
+        android:text=" The Baltimore Beacon, a whitewashed tower guarding the entrance of the harbour, is Baltimore’s major landmark. The locals call him Lot’s Wife with a wink after a biblical figure that solidified into a pillar of salt. "
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="@+id/imageView9" />
+
+    <Button
+        android:id="@+id/beaconMore"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="140dp"
+        android:layout_marginTop="79dp"
+        android:text="More..."
+        android:textSize="20sp"
+        app:layout_constraintStart_toStartOf="@+id/beaconTextview"
+        app:layout_constraintTop_toBottomOf="@+id/beaconTextview" />
+</androidx.constraintlayout.widget.ConstraintLayout>

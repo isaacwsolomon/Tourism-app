@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#BFC58E"
+    tools:context=".BarleyHotelActivity">
+
+    <ImageView
+        android:id="@+id/imageView15"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="131dp"
+        app:layout_constraintBottom_toBottomOf="@+id/barleyhotelTextview"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/img_16" />
+
+    <TextView
+        android:id="@+id/barleyhotelTextview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="39dp"
+        android:text="Barley Cove Beach Hotel has undergone a complete refurbishment along with new construction of our 120 seat function room.Nearby, there's pony trekking, bird watching and sea angling and the spectacular local scenery includes the 400-foot cliffs of Mizen Head, only 4 km from the hotel. Barleycove Beach Hotel is the perfect place from which to explore the dramatic coastline of West Cork."
+        android:textSize="20sp"
+        app:layout_constraintBottom_toTopOf="@+id/barleyhotelMore"
+        app:layout_constraintStart_toStartOf="@+id/imageView15" />
+
+    <Button
+        android:id="@+id/barleyhotelMore"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="7dp"
+        android:layout_marginBottom="14dp"
+        android:text="More..."
+        android:textSize="20sp"
+        app:layout_constraintBottom_toTopOf="@+id/barleyCall"
+        app:layout_constraintEnd_toEndOf="@+id/barleyCall" />
+
+    <Button
+        android:id="@+id/barleyCall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="126dp"
+        android:layout_marginBottom="17dp"
+        android:text="Call 📞"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>

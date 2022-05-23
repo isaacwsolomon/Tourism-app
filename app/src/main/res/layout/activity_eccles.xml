@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#C88BD1"
+    tools:context=".EcclesActivity">
+
+    <ImageView
+        android:id="@+id/imageView14"
+        android:layout_width="531dp"
+        android:layout_height="0dp"
+        app:layout_constraintBottom_toTopOf="@+id/ecclesTextview"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/img_15"
+        tools:layout_editor_absoluteX="-60dp" />
+
+    <TextView
+        android:id="@+id/ecclesTextview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:text="One of 'The Fab 50' Ireland's Best Places to Stay Steeped in 250 years of rich history and situated in the quaint village of Glengarriff overlooking Bantry bay  on a stunning stretch of Ireland's Wild Atlantic Way, Eccles Hotel and Spa is a beautiful 4*star hotel  in West Cork offering the finest in charm, comfort and location."
+        android:textSize="20sp"
+        app:layout_constraintBottom_toTopOf="@+id/ecclesMore"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView14" />
+
+    <Button
+        android:id="@+id/ecclesMore"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="2dp"
+        android:layout_marginBottom="35dp"
+        android:text="More..."
+        android:textSize="20sp"
+        app:layout_constraintBottom_toTopOf="@+id/ecclesCall"
+        app:layout_constraintStart_toStartOf="@+id/ecclesCall"
+        app:layout_constraintTop_toBottomOf="@+id/ecclesTextview" />
+
+    <Button
+        android:id="@+id/ecclesCall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="57dp"
+        android:text="Call 📞"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ecclesMore" />
+</androidx.constraintlayout.widget.ConstraintLayout>

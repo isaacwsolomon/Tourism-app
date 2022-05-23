@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#C8C2B9"
+    tools:context=".SchullHotelActivity">
+
+    <ImageView
+        android:id="@+id/imageView12"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="1dp"
+        android:layout_marginEnd="1dp"
+        android:layout_marginBottom="22dp"
+        app:layout_constraintBottom_toTopOf="@+id/schullTextview"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/img_14" />
+
+    <TextView
+        android:id="@+id/schullTextview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="1dp"
+        android:layout_marginBottom="56dp"
+        android:text="Welcome to the Schull Harbour Hotel and Leisure Centre in stunning West Cork. Superbly located overlooking the Atlantic Ocean on the Wild Atlantic Way and Mizen Peninsula, the Schull Harbour Hotel is a fantastic place for a romantic weekend break, a family getaway, self-catering holiday or an adventure weekend. We are perfectly positioned for exploring the Mizen Head and the surrounding Sheep’s Head and Beara Peninsulas, be it hiking, cycling, swimming or aimlessly wandering and discovering all that this wonderful town has to offer."
+        android:textSize="20sp"
+        app:layout_constraintBottom_toTopOf="@+id/schullMore"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView12" />
+
+    <Button
+        android:id="@+id/schullMore"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="15dp"
+        android:text="More..."
+        android:textSize="20sp"
+        app:layout_constraintBottom_toTopOf="@+id/schullCall"
+        app:layout_constraintEnd_toEndOf="@+id/schullCall"
+        app:layout_constraintTop_toBottomOf="@+id/schullTextview" />
+
+    <Button
+        android:id="@+id/schullCall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:text="Call 📞"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/schullMore" />
+</androidx.constraintlayout.widget.ConstraintLayout>
